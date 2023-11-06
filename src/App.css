@@ -1,0 +1,93 @@
+/* icons */
+.link {
+  color: var(--green-2);
+}
+.link:hover {
+  transition: 1s ease-in-out;
+  color: var(--pink);
+  transform: scale(2);
+  margin: 2rem;
+}
+
+/* header */
+#header {
+  position: fixed;
+  z-index: 1;
+  width: 15rem;
+  height: 100vh;
+  border-right: 25px solid;
+  border-color: var(--green-2);
+  background-color: var(--light);
+}
+/* nav */
+nav {
+  color: var(--dark);
+}
+#nav-btn {
+  background-color: var(--green-2);
+}
+#nav-btn:hover {
+  transition: 1s ease;
+  background-color: var(--pink);
+}
+
+/* main */
+#main {
+  width: calc(100% - 15rem);
+  margin-left: 15rem;
+  border-left: 25px solid;
+  border-color: var(--green-1);
+  background-color: var(--dark);
+}
+
+/* about */
+#about {
+  color: var(--light);
+}
+.section-text {
+  border: 5px dotted;
+  border-color: var(--green-2);
+  border-radius: 30px;
+}
+
+/* work */
+#work {
+  color: var(--light);
+}
+
+/* card */
+.card {
+  width: 25rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  color: var(--light);
+  background-color: var(--dark);
+  border: 5px dotted;
+  border-color: var(--green-2);
+  border-radius: 30px;
+}
+.card-header {
+  border-bottom: 1px solid;
+  border-color: var(--green-2);
+}
+.card-body {
+  margin-bottom: 1rem;
+}
+.card-title {
+  color: var(--green-1);
+}
+.card-link {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--green-2);
+  border-radius: 15px;
+}
+.card-link:hover {
+  transition: 1s ease;
+  background-color: var(--pink);
+}
+
+/* contact */
+#contact {
+  color: var(--light);
+}

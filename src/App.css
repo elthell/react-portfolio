@@ -1,4 +1,10 @@
 /* icons */
+.flower {
+  color: var(--pink);
+}
+.dk-leaf {
+  color: var(--green-1);
+}
 .link {
   color: var(--green-2);
 }

@@ -1,7 +1,7 @@
 function Header({ currentPage, handlePageChange }) {
   return (
     <header id="header">
-      <nav class="navbar">
+      <nav class="navbar p-0">
         <p class="navbar-brand text-center p-3 fs-3 fw-bold">Eleanor Thell</p>
         <ul class="navbar-nav d-flex flex-row align-items-center">
           <li id="nav-btn" class="nav-item me-3 p-4">

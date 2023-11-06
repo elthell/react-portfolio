@@ -27,7 +27,7 @@ export default function Portfolio() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main id="main" class="position-absolute">
+      <main id="main" className="position-absolute">
         {renderPage()}
       </main>
       <Footer />

@@ -1,26 +1,24 @@
 function Header({ currentPage, handlePageChange }) {
   return (
     <header id="header">
-      <nav class="navbar p-0">
-        <p class="navbar-brand text-center p-3 fs-3 fw-bold">Eleanor Thell</p>
-        <ul class="navbar-nav d-flex flex-row align-items-center">
-          <li id="nav-btn" class="nav-item me-3 p-4">
+      <nav className="navbar p-0">
+        <p className="navbar-brand text-center p-3 fs-3 fw-bold">Eleanor Thell</p>
+        <ul className="navbar-nav d-flex flex-row align-items-center">
+          <li id="nav-btn" className="nav-item me-3 p-4 text-center">
             <a
               id="about-btn"
-              class="nav-link text-center"
               href="#about"
               onClick={() => handlePageChange("About")}
-              className={
+              className= {
                 currentPage === "About" ? "nav-link active" : "nav-link"
               }
             >
               About
             </a>
           </li>
-          <li id="nav-btn" class="nav-item me-3 p-4">
+          <li id="nav-btn" className="nav-item me-3 p-4 text-center">
             <a
               id="work-btn"
-              class="nav-link text-center"
               href="#projects"
               onClick={() => handlePageChange("Projects")}
               className={
@@ -30,10 +28,9 @@ function Header({ currentPage, handlePageChange }) {
               Projects
             </a>
           </li>
-          <li id="nav-btn" class="nav-item me-3 p-4">
+          <li id="nav-btn" className="nav-item me-3 p-4 text-center">
             <a
               id="contact-btn"
-              class="nav-link text-center"
               href="#resume"
               onClick={() => handlePageChange("Resume")}
               className={
@@ -43,10 +40,9 @@ function Header({ currentPage, handlePageChange }) {
               Resume
             </a>
           </li>
-          <li id="nav-btn" class="nav-item me-3 p-4">
+          <li id="nav-btn" className="nav-item me-3 p-4 text-center">
             <a
               id="contact-btn"
-              class="nav-link text-center"
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={

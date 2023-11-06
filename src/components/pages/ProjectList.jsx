@@ -7,12 +7,12 @@ const ProjectList = () => {
   });
 
   return (
-    <section id="projects" class="mx-auto">
-      <p class="section-title fs-3 fw-bold text-center py-2 my-2">
-        <i class="flower fa-solid fa-fan"></i>
+    <section id="projects" className="mx-auto">
+      <p className="section-title fs-3 fw-bold text-center py-2 my-2">
+        <i className="flower fa-solid fa-fan"></i>
         Projects
       </p>
-      <div class="card-row row">{renderedList}</div>
+      <div className="card-row row">{renderedList}</div>
     </section>
   );
 };

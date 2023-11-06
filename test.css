@@ -1,0 +1,157 @@
+:root {
+  --dark: #555b6e;
+  --green-1: #89b0ae;
+  --green-2: #bee3db;
+  --light: #faf9f9;
+  --pink: #d5b0ac;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* icons */
+.flower {
+  color: var(--pink);
+}
+.dk-leaf {
+  color: var(--green-1);
+}
+.link {
+  color: var(--green-2);
+}
+.link:hover {
+  transition: 1s ease-in-out;
+  color: var(--pink);
+  transform: scale(2);
+  margin: 2rem;
+}
+
+/* header */
+#header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 7rem;
+  background-color: var(--light);
+  border-bottom: 25px solid;
+  border-color: var(--green-2);
+}
+/* nav */
+nav {
+  padding: 0;
+  color: var(--dark);
+}
+#nav-btn {
+  background-color: var(--green-2);
+}
+#nav-btn:hover {
+  transition: 1s ease;
+  background-color: var(--pink);
+}
+
+/* main */
+#main {
+  width: 100%;
+  height: calc(100% - 7rem);
+  margin-top: 7rem;
+  border-top: 25px solid;
+  border-color: var(--green-1);
+  background-color: var(--dark);
+}
+
+/* about */
+#about {
+  color: var(--light);
+}
+.section-text {
+  border: 5px dotted;
+  border-color: var(--green-2);
+  border-radius: 30px;
+}
+
+/* work */
+#work {
+  color: var(--light);
+}
+
+/* card */
+.card {
+  width: 25rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  color: var(--light);
+  background-color: var(--dark);
+  border: 5px dotted;
+  border-color: var(--green-2);
+  border-radius: 30px;
+}
+.card-header {
+  border-bottom: 1px solid;
+  border-color: var(--green-2);
+}
+.card-body {
+  margin-bottom: 1rem;
+}
+.card-title {
+  color: var(--green-1);
+}
+.card-link {
+  color: var(--dark);
+  text-decoration: none;
+  background-color: var(--green-2);
+  border-radius: 15px;
+}
+.card-link:hover {
+  transition: 1s ease;
+  background-color: var(--pink);
+}
+
+/* resume */
+.skill-list {
+  border-color: var(--green-1);
+}
+.skill {
+  padding: 2px;
+}
+
+/* contact */
+#contact {
+  color: var(--light);
+}
+
+/* media rules */
+@media screen and (max-width: 768px) {
+  .dk-leaf {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #header {
+    position: absolute;
+    width: 100%;
+    height: 25rem;
+    border-right: 0px;
+    border-bottom: 20px solid;
+    border-color: var(--green-2);
+  }
+  #main {
+    width: 100%;
+    margin: 25rem 0 0 0;
+    border-left: 0px;
+    border-top: 20px solid;
+    border-color: var(--green-1);
+  }
+  .card {
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 20rem;
+  }
+}

@@ -6,7 +6,7 @@ const ProjectList = ({ projects }) => {
   });
 
   return (
-    <section id="work" class="mx-auto">
+    <section id="projects" class="mx-auto">
       <p class="section-title fs-3 fw-bold text-center py-2 my-2">
         <i class="flower fa-solid fa-fan"></i>
         Work

@@ -112,6 +112,11 @@ nav {
 .skill {
   padding: 2px;
 }
+.skill:hover {
+  background-color: var(--light);
+  color: var(--dark);
+  transition: 0.5s ease;
+}
 
 /* contact */
 #contact {

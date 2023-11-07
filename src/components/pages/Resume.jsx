@@ -1,3 +1,4 @@
+import { skills } from "../../assets/portfolioData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFan, faFile } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,28 +17,22 @@ const Resume = () => {
         </p>
         <div className="skill-list container text-center p-3">
           <div className="row row-cols-4">
-            <p className="skill border rounded-2 mx-4">HTML</p>
-            <p className="skill border rounded-2 mx-4">CSS</p>
-            <p className="skill border rounded-2 mx-4">Bootstrap</p>
-            <p className="skill border rounded-2 mx-4">JavaScript</p>
-            <p className="skill border rounded-2 mx-4">jQuery</p>
-            <p className="skill border rounded-2 mx-4">Node.js</p>
-            <p className="skill border rounded-2 mx-4">Handlebars.js</p>
-            <p className="skill border rounded-2 mx-4">SQL</p>
-            <p className="skill border rounded-2 mx-4">MySQL</p>
-            <p className="skill border rounded-2 mx-4">MVC</p>
-            <p className="skill border rounded-2 mx-4">MongoDB</p>
-            <p className="skill border rounded-2 mx-4">PWAs</p>
-            <p className="skill border rounded-2 mx-4">React.js</p>
-            <p className="skill border rounded-2 mx-4">Git</p>
-            <p className="skill border rounded-2 mx-4">Heroku</p>
+            {skills.map((skill) => (
+              <p key={skills.id} className="skill border rounded-2 mx-4">
+                {skill.text}
+              </p>
+            ))}
           </div>
         </div>
         <p className="fs-5 mb-4 fst-italic text-center mt-3">
           Click below to see my full resume!
         </p>
         <div className="d-grid col-4 mx-auto">
-          <a href="/Eleanor Resume.pdf" className="card-link p-3 mx-auto" download="eleanor-thell-resume.pdf">
+          <a
+            href="/Eleanor Resume.pdf"
+            className="card-link p-3 mx-auto"
+            download="eleanor-thell-resume.pdf"
+          >
             <FontAwesomeIcon icon={faFile} /> Resume
           </a>
         </div>

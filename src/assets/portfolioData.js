@@ -65,4 +65,67 @@ const projects = [
   },
 ];
 
-export { projects }
+const skills = [
+  {
+    id: 1,
+    text: "HTML",
+  },
+  {
+    id: 2,
+    text: "CSS",
+  },
+  {
+    id: 3,
+    text: "Bootstrap",
+  },
+  {
+    id: 4,
+    text: "JavaScript",
+  },
+  {
+    id: 5,
+    text: "jQuery",
+  },
+  {
+    id: 6,
+    text: "Node.js",
+  },
+  {
+    id: 7,
+    text: "Handlebars.js",
+  },
+  {
+    id: 8,
+    text: "SQL",
+  },
+  {
+    id: 9,
+    text: "MySQL",
+  },
+  {
+    id: 10,
+    text: "MVC",
+  },
+  {
+    id: 11,
+    text: "MongoDB",
+  },
+  {
+    id: 12,
+    text: "PWAs",
+  },
+  {
+    id: 13,
+    text: "React.js",
+  },
+  {
+    id: 14,
+    text: "Git",
+  },
+  {
+    id: 15,
+    text: "Heroku",
+  },
+]
+
+export { skills, projects }

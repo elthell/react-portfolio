@@ -1,3 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faCodepen,
+} from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <footer id="footer">
@@ -5,15 +12,15 @@ const Footer = () => {
         <p className="fs-3 fw-bold">Look me up:</p>
         <a
           href="https://www.linkedin.com/in/eleanor-thell-b86bb6217/"
-          className="ms-4"
+          className="ms-4 link"
         >
-          <i className="link fa-brands fa-linkedin fa-3x"></i>
+          <FontAwesomeIcon icon={faLinkedin} size="3x" />
         </a>
-        <a href="https://github.com/elthell" className="ms-4">
-          <i className="link fa-brands fa-github fa-3x"></i>
+        <a href="https://github.com/elthell" className="ms-4 link">
+          <FontAwesomeIcon icon={faGithub} size="3x" />
         </a>
-        <a href="https://codepen.io/elthell" className="ms-4">
-          <i className="link fa-brands fa-codepen fa-3x"></i>
+        <a href="https://codepen.io/elthell" className="ms-4 link">
+          <FontAwesomeIcon icon={faCodepen} size="3x" />
         </a>
       </div>
     </footer>

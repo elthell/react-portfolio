@@ -1,5 +1,7 @@
 import ProjectCard from "../cards/Project";
 import { projects } from "../../assets/portfolioData";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFan } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectList = () => {
   const renderedList = projects.map(({ id, ...project }) => {
@@ -9,7 +11,9 @@ const ProjectList = () => {
   return (
     <section id="projects" className="mx-auto">
       <p className="section-title fs-3 fw-bold text-center py-2 my-2">
-        <i className="flower fa-solid fa-fan"></i>
+        <div className="flower d-inline">
+          <FontAwesomeIcon icon={faFan} />
+        </div>
         Projects
       </p>
       <div className="card-row row">{renderedList}</div>

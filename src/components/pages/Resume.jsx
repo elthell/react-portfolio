@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFan, faFile } from "@fortawesome/free-solid-svg-icons";
+
 const Resume = () => {
   return (
     <section
@@ -6,7 +9,9 @@ const Resume = () => {
     >
       <div className="section-text p-4 shadow">
         <p className="section-title fs-3 fw-bold text-center">
-          <i className="flower fa-solid fa-fan"></i>
+          <div className="flower d-inline">
+            <FontAwesomeIcon icon={faFan} />
+          </div>
           Skills
         </p>
         <div className="skill-list container text-center pt-3 border border-3 rounded-2">
@@ -32,8 +37,8 @@ const Resume = () => {
           Click below to see my full resume!
         </p>
         <div className="d-grid col-6 mx-auto">
-          <a href="" className="card-link p-3 mx-auto">
-            <i className="fa-solid fa-file"></i> Resume
+          <a href="../../assets/Eleanor Resume.pdf" className="card-link p-3 mx-auto">
+            <FontAwesomeIcon icon={faFile} /> Resume
           </a>
         </div>
       </div>
@@ -41,4 +46,4 @@ const Resume = () => {
   );
 };
 
-export default Resume
+export default Resume;

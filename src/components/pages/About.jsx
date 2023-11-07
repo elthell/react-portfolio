@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLeaf, faFan } from "@fortawesome/free-solid-svg-icons";
+
 const About = () => {
   return (
     <section
@@ -6,11 +9,15 @@ const About = () => {
     >
       <div className="section-text p-3 shadow">
         <p className="section-title fs-3 fw-bold text-center">
-          <i className="flower fa-solid fa-fan"></i>
+          <div className="flower d-inline">
+            <FontAwesomeIcon icon={faFan} />
+          </div>
           About
         </p>
         <div className="row">
-          <i className="dk-leaf col-2 fa-solid fa-leaf fa-flip-horizontal fa-5x text-center"></i>
+          <div className="dk-leaf col-2 text-center">
+            <FontAwesomeIcon icon={faLeaf} size="5x" flip="horizontal" />
+          </div>
           <p className="col-8 fs-6">
             Hi, I'm Eleanor!
             <br />
@@ -20,7 +27,9 @@ const About = () => {
             <br />• skilled in customer service and data entry with growing
             skills in full stack web development.
           </p>
-          <i className="dk-leaf col-2 fa-solid fa-leaf fa-5x text-center"></i>
+          <div className="dk-leaf col-2 text-center">
+            <FontAwesomeIcon icon={faLeaf} size="5x" />
+          </div>
         </div>
       </div>
     </section>

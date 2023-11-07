@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
+
 const ProjectCard = ({ project }) => {
   return (
     <div classNameName="card text-center shadow">
@@ -7,10 +10,10 @@ const ProjectCard = ({ project }) => {
         <h5 className="card-title">{project.title}</h5>
         <p className="card-text pb-2">{project.description}</p>
         <a href={project.codeLink} className="card-link p-3">
-          <i className="fa-solid fa-code"></i> Code
+          <FontAwesomeIcon icon={faCode} /> Code
         </a>
         <a href={project.liveLink} className="card-link p-3">
-          <i className="fa-solid fa-window-restore"></i> Live
+          <FontAwesomeIcon icon={faWindowRestore} /> Live
         </a>
       </div>
     </div>

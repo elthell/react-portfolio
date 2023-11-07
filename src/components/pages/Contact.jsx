@@ -1,12 +1,17 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFan, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const Contact = () => {
   return (
     <section
       id="contact"
-      className="vh-100 d-flex justify-content-center align-items-center m-3"
+      className="d-flex justify-content-center align-items-center m-3"
     >
       <div className="section-text p-4 shadow">
         <p className="section-title fs-3 fw-bold text-center">
-          <i className="flower fa-solid fa-fan"></i>
+          <div className="flower d-inline">
+            <FontAwesomeIcon icon={faFan} />
+          </div>
           Contact
         </p>
         <p className="fs-5 mb-4 fst-italic">
@@ -44,12 +49,14 @@ const Contact = () => {
                 rows="3"
               ></textarea>
             </div>
-            <a
-              href="mailto:eleanor.thell@gmail.com"
-              className="card-link p-3"
-            >
-              <i className="fa-solid fa-envelope"></i> Email me!
-            </a>
+            <div className="d-grid col-6 mx-auto">
+              <a
+                href="mailto:eleanor.thell@gmail.com"
+                className="card-link p-3"
+              >
+                <FontAwesomeIcon icon={faEnvelope} /> Email me!
+              </a>
+            </div>
           </div>
         </form>
       </div>

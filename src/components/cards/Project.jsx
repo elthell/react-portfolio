@@ -1,11 +1,11 @@
+import "./Project.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div classNameName="card text-center shadow">
+    <div className="card text-center shadow">
       <div className="card-header">
-        {project.id}
         {project.stack}
       </div>
       <img src={project.img} className="card-img-top" alt={project.imgAlt} />

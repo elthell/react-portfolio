@@ -14,9 +14,9 @@ const ProjectList = () => {
         </div>
         Projects
       </p>
-      <div className="card-row row">
+      <div className="card-row row row-cols-3">
         {projects.map((project) => (
-          <ProjectCard key={id} project={project} />
+          <ProjectCard key={project.id} project={project} />
         ))}
       </div>
     </section>

@@ -55,7 +55,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Note Take",
+    title: "Note Taker",
     description: "This application can be used to write and save notes, using an Express.js back end and will save and retrieve note data from a JSON file",
     stack: "Express.js • JSON",
     img: "",

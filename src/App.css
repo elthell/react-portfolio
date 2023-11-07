@@ -46,7 +46,7 @@ nav {
 /* main */
 #main {
   width: 100%;
-  height: calc(100% - 7rem);
+  height: calc(100% - 14rem);
   margin-top: 7rem;
   border-top: 25px solid;
   border-color: var(--green-1);
@@ -63,14 +63,16 @@ nav {
   border-radius: 30px;
 }
 
-/* work */
-#work {
+/* projects */
+#projects {
   color: var(--light);
+  background-color: var(--dark);
+  margin-bottom: 7rem;
 }
 
 /* card */
 .card {
-  width: 25rem;
+  width: 15rem;
   margin-left: 3rem;
   margin-bottom: 3rem;
   color: var(--light);

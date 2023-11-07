@@ -14,23 +14,23 @@ const Resume = () => {
           </div>
           Skills
         </p>
-        <div className="skill-list container text-center pt-3 border border-3 rounded-2">
-          <div className="row row-cols-3">
-            <p className="skill">HTML</p>
-            <p className="skill">CSS</p>
-            <p className="skill">Bootstrap</p>
-            <p className="skill">JavaScript</p>
-            <p className="skill">jQuery</p>
-            <p className="skill">Node.js</p>
-            <p className="skill">Handlebars.js</p>
-            <p className="skill">SQL</p>
-            <p className="skill">MySQL</p>
-            <p className="skill">MVC</p>
-            <p className="skill">MongoDB</p>
-            <p className="skill">PWAs</p>
-            <p className="skill">React.js</p>
-            <p className="skill">Git</p>
-            <p className="skill">Heroku</p>
+        <div className="skill-list container text-center p-3">
+          <div className="row row-cols-4">
+            <p className="skill border rounded-2 mx-4">HTML</p>
+            <p className="skill border rounded-2 mx-4">CSS</p>
+            <p className="skill border rounded-2 mx-4">Bootstrap</p>
+            <p className="skill border rounded-2 mx-4">JavaScript</p>
+            <p className="skill border rounded-2 mx-4">jQuery</p>
+            <p className="skill border rounded-2 mx-4">Node.js</p>
+            <p className="skill border rounded-2 mx-4">Handlebars.js</p>
+            <p className="skill border rounded-2 mx-4">SQL</p>
+            <p className="skill border rounded-2 mx-4">MySQL</p>
+            <p className="skill border rounded-2 mx-4">MVC</p>
+            <p className="skill border rounded-2 mx-4">MongoDB</p>
+            <p className="skill border rounded-2 mx-4">PWAs</p>
+            <p className="skill border rounded-2 mx-4">React.js</p>
+            <p className="skill border rounded-2 mx-4">Git</p>
+            <p className="skill border rounded-2 mx-4">Heroku</p>
           </div>
         </div>
         <p className="fs-5 mb-4 fst-italic text-center mt-3">

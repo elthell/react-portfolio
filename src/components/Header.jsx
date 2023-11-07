@@ -20,9 +20,9 @@ function Header({ currentPage, handlePageChange }) {
             <a
               id="work-btn"
               href="#projects"
-              onClick={() => handlePageChange("Projects")}
+              onClick={() => handlePageChange("ProjectList")}
               className={
-                currentPage === "Projects" ? "nav-btn active me-3 p-4" : "nav-btn me-3 p-4"
+                currentPage === "ProjectList" ? "nav-btn active me-3 p-4" : "nav-btn me-3 p-4"
               }
             >
               Projects

@@ -30,12 +30,16 @@ nav {
   padding: 0;
   color: var(--dark);
 }
-#nav-btn {
+
+.nav-btn {
   background-color: var(--green-2);
 }
-#nav-btn:hover {
+.nav-btn:hover {
   transition: 1s ease;
   background-color: var(--pink);
+}
+.nav-btn.active {
+  background-color: var(--green-2);
 }
 
 /* main */

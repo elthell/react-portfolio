@@ -27,6 +27,7 @@ const Contact = () => {
               className="form-control"
               id="contact-name"
               placeholder="Your name"
+              required
             ></input>
           </div>
           <div className="mb-3">
@@ -37,7 +38,8 @@ const Contact = () => {
               type="email"
               className="form-control"
               id="contact-email"
-              placeholder="Your name"
+              placeholder="Your email"
+              required
             ></input>
             <div className="mb-3">
               <label for="contact-comment" className="form-label">
@@ -47,6 +49,7 @@ const Contact = () => {
                 className="form-control"
                 id="contact-comment"
                 rows="3"
+                required
               ></textarea>
             </div>
             <div className="d-grid col-6 mx-auto">

@@ -4,9 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFan } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectList = () => {
-  const renderedList = projects.map(({ id, ...project }) => {
-    return <ProjectCard key={id} project={project} />;
-  });
+  if (!projects.length) return null;
 
   return (
     <section id="projects" className="mx-auto">
@@ -16,7 +14,11 @@ const ProjectList = () => {
         </div>
         Projects
       </p>
-      <div className="card-row row">{renderedList}</div>
+      <div className="card-row row">
+        {projects.map((project) => (
+          <ProjectCard key={id} project={project} />
+        ))}
+      </div>
     </section>
   );
 };

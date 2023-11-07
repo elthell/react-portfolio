@@ -16,13 +16,13 @@ function Header({ currentPage, handlePageChange }) {
               About
             </a>
           </li>
-          <li id="nav-btn" className="nav-item me-3 p-4 text-center">
+          <li className="nav-item me-3 p-4 text-center">
             <a
               id="work-btn"
               href="#projects"
               onClick={() => handlePageChange("Projects")}
               className={
-                currentPage === "Projects" ? "nav-link active" : "nav-link"
+                currentPage === "Projects" ? "nav-btn active" : "nav-btn"
               }
             >
               Projects
@@ -34,7 +34,7 @@ function Header({ currentPage, handlePageChange }) {
               href="#resume"
               onClick={() => handlePageChange("Resume")}
               className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
+                currentPage === "Resume" ? "nav-btn active" : "nav-btn"
               }
             >
               Resume
@@ -46,7 +46,7 @@ function Header({ currentPage, handlePageChange }) {
               href="#contact"
               onClick={() => handlePageChange("Contact")}
               className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
+                currentPage === "Contact" ? "nav-btn active" : "nav-btn"
               }
             >
               Contact

@@ -4,7 +4,10 @@ import { faCode, faWindowRestore } from "@fortawesome/free-solid-svg-icons";
 const ProjectCard = ({ project }) => {
   return (
     <div classNameName="card text-center shadow">
-      <div className="card-header">{project.stack}</div>
+      <div className="card-header">
+        {project.id}
+        {project.stack}
+      </div>
       <img src={project.img} className="card-img-top" alt={project.imgAlt} />
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>

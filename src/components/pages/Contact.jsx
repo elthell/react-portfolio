@@ -52,7 +52,7 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <div className="d-grid col-6 mx-auto">
+            <div className="d-grid col-4 mx-auto text-center">
               <a
                 href="mailto:eleanor.thell@gmail.com"
                 className="card-link p-3"

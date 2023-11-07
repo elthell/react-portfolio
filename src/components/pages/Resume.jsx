@@ -36,8 +36,8 @@ const Resume = () => {
         <p className="fs-5 mb-4 fst-italic text-center mt-3">
           Click below to see my full resume!
         </p>
-        <div className="d-grid col-6 mx-auto">
-          <a href="../../assets/Eleanor Resume.pdf" className="card-link p-3 mx-auto">
+        <div className="d-grid col-4 mx-auto">
+          <a href="/Eleanor Resume.pdf" className="card-link p-3 mx-auto" download="eleanor-thell-resume.pdf">
             <FontAwesomeIcon icon={faFile} /> Resume
           </a>
         </div>

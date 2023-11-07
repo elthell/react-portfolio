@@ -30,8 +30,9 @@ nav {
   padding: 0;
   color: var(--dark);
 }
-
 .nav-btn {
+  color: var(--dark);
+  text-decoration: none;
   background-color: var(--green-2);
 }
 .nav-btn:hover {
@@ -39,7 +40,7 @@ nav {
   background-color: var(--pink);
 }
 .nav-btn.active {
-  background-color: var(--green-2);
+  background-color: var(--pink);
 }
 
 /* main */

@@ -14,7 +14,7 @@ Preview:
 
 ![An image of the about page of portfolio, showing a bio set in a relaxing, simple design](./public/react-portfolio-preview.png)
 
-Live link [here]()
+Live link [here](https://react-portfolio-560a58.netlify.app/)
 
 ## Credits
 

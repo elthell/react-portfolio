@@ -41,25 +41,22 @@ const Contact = () => {
               placeholder="Your email"
               required
             ></input>
-            <div className="mb-3">
-              <label for="contact-comment" className="form-label">
-                Comments
-              </label>
-              <textarea
-                className="form-control"
-                id="contact-comment"
-                rows="3"
-                required
-              ></textarea>
-            </div>
-            <div className="d-grid col-4 mx-auto text-center">
-              <a
-                href="mailto:eleanor.thell@gmail.com"
-                className="card-link p-3"
-              >
-                <FontAwesomeIcon icon={faEnvelope} /> Email me!
-              </a>
-            </div>
+          </div>
+          <div className="mb-3">
+            <label for="contact-comment" className="form-label">
+              Comments
+            </label>
+            <textarea
+              className="form-control"
+              id="contact-comment"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div className="d-grid col-4 mx-auto text-center">
+            <a href="mailto:eleanor.thell@gmail.com" className="card-link p-3">
+              <FontAwesomeIcon icon={faEnvelope} /> Email me!
+            </a>
           </div>
         </form>
       </div>

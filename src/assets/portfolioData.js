@@ -1,6 +1,17 @@
 const projects = [
   {
     id: 1,
+    title: "Live Chat",
+    description:
+      "Create a profile and chat with other users in real time.",
+    stack: "MERN • GraphQL •Socket.io",
+    img: "",
+    imgAlt: "",
+    codeLink: "https://github.com/abigailjoy93/live-chat",
+    liveLink: "https://secret-mesa-11996-2e215cae4435.herokuapp.com/",
+  },
+  {
+    id: 2,
     title: "Dad-icated",
     description:
       "A dad joke ranking application where users can create a profile to see dad jokes, as well as vote on them and submit their own.",
@@ -11,7 +22,7 @@ const projects = [
     liveLink: "https://dad-icated-6a2b4854840e.herokuapp.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Food Finder",
     description:
       "Utilizing the Spoonacular API, the application allows users to search and save recipes, as well as find local food of the same cuisine as the recipes they've saved",
@@ -22,7 +33,7 @@ const projects = [
     liveLink: "https://thinker92.github.io/FoodFinder/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio v.1",
     description:
       "A previous version of a portfolio to showcase my skills and alents to employers through a detailed about section, interactive project display, and contact links",
@@ -33,7 +44,7 @@ const projects = [
     liveLink: "https://elthell.github.io/portfolio/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Timed Quiz",
     description:
       "This application tests a user's knowledge with five questions about Warhammer 40k to answer over 45 seconds. Wrong answers deduct time and at the end users can save their score.",
@@ -42,16 +53,6 @@ const projects = [
     imgAlt: "",
     codeLink: "https://github.com/elthell/timed-quiz",
     liveLink: "https://elthell.github.io/timed-quiz/",
-  },
-  {
-    id: 5,
-    title: "Social Network API",
-    description: "This application is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
-    stack: "Express.js • MongoDB • Mongoose",
-    img: "",
-    imgAlt: "",
-    codeLink: "https://github.com/elthell/social-api",
-    liveLink: "https://drive.google.com/file/d/1fKQrxbLSiR0n9WjTMFU7KvE4WsTRP9QE/view",
   },
   {
     id: 6,
@@ -125,6 +126,18 @@ const skills = [
   {
     id: 15,
     text: "Heroku",
+  },
+  {
+    id: 16,
+    text: "MERN",
+  },
+  {
+    id: 17,
+    text: "Express.js",
+  },
+  {
+    id: 18,
+    text: "GraphQL",
   },
 ]
 

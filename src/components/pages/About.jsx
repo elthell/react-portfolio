@@ -21,11 +21,9 @@ const About = () => {
           <img src="/20230923_142259.jpg" className="about-img mx-3"></img>
           <div className="mx-3 fs-6">
             <p>Hi, I'm Eleanor!</p>
-            <p>Data-driven, life-long learner looking to bring a History B.A.'s
-            love of documentation and presenting information to a career shift
-            into tech.</p>
-            <p> • Skilled in customer service and data entry with growing
-            skills in full stack web development.</p>
+            <p>Fullstack developer with a background in logistics and history - bringing a deep understanding of the research process and presenting data to coding.</p>
+            <p>Earned a certificate in Fullstack Web Development from edX in partnership with the University of Minnesota. 
+              Skilled in front end development but growing in server-side knowledge and seeking a position that will utilize and develop this experience</p>
           </div>
           <div className="mx-5 dk-leaf">
             <FontAwesomeIcon icon={faLeaf} size="5x" />

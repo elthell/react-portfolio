@@ -29,7 +29,7 @@ const Resume = () => {
         </p>
         <div className="d-grid col-4 mx-auto">
           <a
-            href="/Eleanor Resume-1.pdf"
+            href="/Eleanor Resume 2x.pdf"
             className="card-link p-3 mx-auto"
             download="eleanor-thell-resume.pdf"
           >
